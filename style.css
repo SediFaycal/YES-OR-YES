@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  h3 {
+    color: white;
+  }
+  
+  .container {
+    font-family:'Times New Roman', Times, serif; 
+    text-align: center;
+  }
+  
+  button {
+    
+    border-radius: 15%;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  h1 {
+    color: #ffffff;    }
