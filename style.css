@@ -1,4 +1,5 @@
 body {
+  cursor: url('coeur.cur'), auto;
     background-color: pink;
     display: flex;
     justify-content: center;
@@ -13,16 +14,58 @@ body {
   .container {
     font-family:'Times New Roman', Times, serif; 
     text-align: center;
+      margin-top: 50px;
   }
   
-  button {
-    
-    border-radius: 15%;
-    padding: 10px 20px;
-    font-size: 20px;
-    margin: 0 10px;
-    cursor: pointer;
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
   }
+
+  button {
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  #boutonOui {
+    background-color: #fe0098;
+    color: rgb(255, 255, 255);
+  }
+
+  #boutonOui:hover {
+    background-color: #ffffff;
+  }
+    /* t'es curieuse hynnnn */
+
+  #boutonNon {
+    background-color: #fe0098;
+    color: white;
+    position: relative;
+    transition: transform 0.3s ease; /* Ajout de l'animation de déplacement */
+  }
+
+  #boutonNon:hover {
+    background-color: #d32f2f;
+    transform: translate(-50%, -50%); /* Centrer le bouton sur le curseur */
+  }
+  img {
+      width: 200px; /* Ajustez la largeur selon vos besoins */
+      height: auto;
+      margin-top: 20px; /* Ajoutez une marge en haut pour l'espace entre l'image et le texte */
+  }
+
+  .gif-yes img {
+    width: 100%; 
+    height: auto;
+}
+
+
 
   h1 {
     color: #ffffff;    }
